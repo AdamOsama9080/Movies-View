@@ -1,0 +1,23 @@
+@mixin center(){
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin transparent(){
+    background-color: transparent;
+}
+
+@mixin borderRadius($val){
+    border-radius: $val;
+}
+
+.container {
+  display: flex;
+  @include center();
+  input{
+    background-color: transparent !important;
+}
+}
+
+
+

@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container input {
+  background-color: transparent !important;
+}/*# sourceMappingURL=style.css.map */

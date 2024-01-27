@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+:root{
+  --bg-main-color:#131722;
+  --light-bg-color:#24baef;
+  --bg-transparent:rgba(36,186,239,0.6);
+  --font-color:#fff;
+  --border-color:#a8a8a83d;
+  --border-height:1px;
+  --seconde-font-color:#949cb0;
+}
+
+body{
+  color: var(--font-color) ;
+  background-color: var(--bg-main-color) ;
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Montserrat Alternates', sans-serif !important;
+  height: 100% ;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container input {
+  background-color: transparent !important;
+  color: var(--font-color) !important;
+}/*# sourceMappingURL=style.css.map */
+
+ 
+.container select {
+  background-color: transparent !important;
+  color: var(--font-color) !important;
+}/*# sourceMappingURL=style.css.map */
+
+.custom-heading {
+  font-size: 2em; /* Adjust the font size as desired */
+  color: #ff5733; /* Change the color to your preference */
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Add some spacing below the heading */
+}
+
+.the-line{
+  height: 1px;
+  background-color: var(--border-color) !important;
+}
+
+.overview{
+  color: var(--seconde-font-color);
+}
+
+.list-page{
+  cursor: pointer;
+  padding: 4px;
+}
